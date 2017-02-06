@@ -80,7 +80,7 @@ Sequence of data cleaning done on the dataset include:
 5.From the data set in step 4, creates a second, independent tidy data set,"Avg_df.txt" with the average of each variable for each activity and each subject.
 
 
-The R script file for the project is "Scriptfile.R",which contains the sequence of operations performed on the dataset with comments for explanation.
+The R script file for the project is "run_analysis.R",which contains the sequence of operations performed on the dataset with comments for explanation.
 
 The observations in the tidy datset "Avg_df.csv" and "Avg_df.txt" corresponds to variable values for each activity for each sbject.
 The variables for tidy datset,"Avg_df.csv" and "Avg_df.txt" are the average of the variables from the original dataset which are mean and standard deviation each measuremnt.
