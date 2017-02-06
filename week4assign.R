@@ -39,6 +39,6 @@ colnames(newdataframe)=paste0("avg_",colnames(newdataframe),"")
 colnames(newdataframe)[1]="activity"
 colnames(newdataframe)[2]="subject"
 
-write.csv(newdataframe,"Avg_df.csv")
-
+##write.csv(newdataframe,"Avg_df.csv")
+write.table(newdataframe,"Avg_df.txt",row.name=FALSE)
 

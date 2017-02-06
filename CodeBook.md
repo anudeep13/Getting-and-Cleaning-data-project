@@ -77,13 +77,13 @@ Sequence of data cleaning done on the dataset include:
 2.Extracts only the measurements on the mean and standard deviation for each measurement.
 3.Uses descriptive activity names to name the activities in the data set
 4.Appropriately labels the data set with descriptive variable names.
-5.From the data set in step 4, creates a second, independent tidy data set,"Avg_df.csv" with the average of each variable for each activity and each subject.
+5.From the data set in step 4, creates a second, independent tidy data set,"Avg_df.txt" with the average of each variable for each activity and each subject.
 
 
 The R script file for the project is "Scriptfile.R",which contains the sequence of operations performed on the dataset with comments for explanation.
 
-The observation in the tidy datset +Avg_df" corresponds to variable values for each activity for each sbject.
-The variables for tidy datset,"Avg_df.csv" are the average of the variables from the original dataset which are mean and standard deviation each measuremnt.
+The observations in the tidy datset "Avg_df.csv" and "Avg_df.txt" corresponds to variable values for each activity for each sbject.
+The variables for tidy datset,"Avg_df.csv" and "Avg_df.txt" are the average of the variables from the original dataset which are mean and standard deviation each measuremnt.
 
 The variables are:
 
